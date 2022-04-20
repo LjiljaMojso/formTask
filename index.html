@@ -1,0 +1,93 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!--Task 1-->
+    <div class="wraper">
+      <header>
+        <div id="percents"><div>0%</div></div>
+        <div>
+
+        <div class="title">
+          <p class="title">New York State</p>
+          <h2 class="main-title">Request for Contact</h2>
+        </div>
+      </header>
+      <form action="" class="conatact-form">
+        <div class="checked name">1</div>
+        <div class="question">
+          <input type="text" name="first-name" id="first-name" />
+          <label for="name" class="label-name">
+            <span class="content-name"> First name</span>
+          </label>
+        </div>
+
+        <div class="checked lastName">2</div>
+        <div class="question">
+          <input type="text" name="last-name" id="last-name" />
+          <label for="last-name" class="label-name">
+            <span class="content-name"> Last name</span>
+          </label>
+        </div>
+
+        <div class="checked email">3</div>
+        <div class="question">
+          <input type="email" name="email" id="email" />
+          <label for="email" class="label-name">
+            <span class="content-name"> Email Address</span>
+          </label>
+        </div>
+        <div class="checked date">4</div>
+        <div class="question">
+          <input type="" name="date" id="date" />
+          <label for="time" class="label-name">
+            <span class="content-name"
+              >What is the best time to contact you?</span
+            >
+          </label>
+        </div>
+        <span>Monday 3pm</span><br />
+        <span>Tuesday 3pm</span>
+        <!--Task 2a-->
+        <div class="checked check">5</div>
+        <div class="question">
+          <input id="check" type="text" name="string-check" />
+          <label for="check" class="label-name"
+            ><span class="content-name"> Parentheses check</span>
+          </label>
+        </div>
+        <div class="rules">
+          <p>
+            Checking if sentence has parentheses, and if the parentheses in the
+            string are correctly matched and each one is accounted for.
+          </p>
+        </div>
+
+        <!--Task 2b-->
+        <div class="checked pass">6</div>
+        <div class="question">
+          <input id="pass" type="password" name="password" />
+          <label for="pass" class="label-name">
+            <span class="content-name"> Password?</span>
+          </label>
+        </div>
+        <div class="rules">
+          <p>The password should be at least 8 characters long</p>
+          <p>The password should have at least one uppercase letter</p>
+          <p>The password should have at least one lowercase letter</p>
+          <p>The password should have at least one digit</p>
+          <p>The password should have at least one special character</p>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
